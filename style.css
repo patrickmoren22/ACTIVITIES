@@ -67,21 +67,3 @@ span{
     font-weight: bold;
     font-size: xx-large;
 }
-.flex-container-row-reverse{
-    display: flex;
-    background: gray;
-    flex-direction: row-reverse;
-    justify-content: center;
-    flex-wrap:wrap;
-    font-weight: bolder;
-    font-size: 100px;
-}
-.flex-container-space-between{
-    display: flex;
-    background: gray;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    font-weight: bolder;
-    font-size: 100px;  
-}
