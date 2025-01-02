@@ -1,0 +1,87 @@
+@media screen and (max-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+    .flex-container{
+        display: flex;
+       background-color: rgb(26, 109, 182) !important;
+        flex-direction: column !important;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .flex-item{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        padding: auto;
+        margin: 60px;
+    }
+    .flex-container-hidden{
+        display: flex !important;
+        background: pink;
+        flex-direction: column !important; 
+        justify-content: center !important;
+            flex-wrap: wrap;
+            font-weight: bold;
+            font-size: 50px;
+       
+     }
+  }
+ .flex-container{
+    display: flex;
+    background: pink;
+    flex-direction: row; 
+    justify-content: center;
+        flex-wrap: wrap;
+        font-weight: bold;
+        font-size: 50px;
+ }
+ .flex-container-hidden{
+    display: None;
+    background: pink;
+    flex-direction: row; 
+    justify-content: center;
+        flex-wrap: wrap;
+        font-weight: bold;
+        font-size: 50px;
+ }
+/* .flex-container{
+    display: flex;
+    background: gray;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    font-weight: bolder;
+    font-size: 100px;
+} */
+.flex-item{
+    background: lightblue;
+    padding: 2px;
+    margin:5px;
+}
+span{
+    text-align: center;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.flex-container-row-reverse{
+    display: flex;
+    background: gray;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap:wrap;
+    font-weight: bolder;
+    font-size: 100px;
+}
+.flex-container-space-between{
+    display: flex;
+    background: gray;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    font-weight: bolder;
+    font-size: 100px;  
+}
